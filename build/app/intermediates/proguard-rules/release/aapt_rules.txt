@@ -1,0 +1,8 @@
+# Referenced at /Volumes/e/workspace/flutter/test_fluuter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Volumes/e/workspace/flutter/test_fluuter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:29
+-keep class com.example.test_fluuter.MainActivity { <init>(); }
+# Referenced at /Volumes/e/workspace/flutter/test_fluuter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:24
+-keep class io.flutter.app.FlutterApplication { <init>(); }
+# Referenced at /Volumes/e/workspace/flutter/test_fluuter/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:71
+-keep class io.flutter.plugins.imagepicker.ImagePickerFileProvider { <init>(); }
