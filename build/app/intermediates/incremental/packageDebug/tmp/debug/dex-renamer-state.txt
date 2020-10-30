@@ -1,4 +1,0 @@
-#Thu Oct 29 16:49:53 CST 2020
-base.0=/Volumes/e/workspace/flutter/test_fluuter/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

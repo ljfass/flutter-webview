@@ -11,6 +11,7 @@ import 'package:package_info/package_info.dart';
 import './doNotAskAgain.dart';
 import 'package:permission_handler/permission_handler.dart';
 import './custom_app_bar.dart';
+import './oval_close.dart';
 
 void main() => runApp(
   MaterialApp(
@@ -210,6 +211,24 @@ class _WebViewExampleState extends State<WebViewExample> {
             print('test');
             Navigator.of(context).pop();
           },
+        ),
+        trailingWidget: Opacity(
+          opacity: 0.5,
+          child:  Container(
+            width: 50.0,
+            height: 22.0,
+            child: new IconButton(
+              iconSize: 16.0,
+              hoverColor: Colors.red,
+            icon: new Image.asset('assets/images/wechat-more-128.png',),
+            onPressed: null,
+          ),
+             decoration: BoxDecoration(
+               color: Colors.white,
+              border: Border.all(color: Colors.white.withOpacity(.5), width: 1.0),
+              borderRadius: BorderRadius.all(Radius.elliptical(50, 50))
+            ),
+        ),
         ),
         title: 'Webview Page',
         navigationBarBackgroundColor: Color(0xFF1389FD),
